@@ -1,0 +1,13 @@
+version: "1.0"
+info:
+  scaffold: Z1
+  model: int-scaffold
+services:
+- serviceName: edge.bgsge_ghp2.integrations:Z1
+  packages:
+  - name: EdgeBgsge_ghp2
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.122
